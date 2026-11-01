@@ -1,0 +1,14 @@
+/* Shared page styles. Pages are rendered from build/, so asset paths are relative to it.
+   --card-w, --card-h, --gold, --maroon, --zine-w and --zine-h are set by src/output/export.py. */
+@font-face { font-family: GrilledCheese; src: url(../assets/fonts/GrilledCheeseBTN-Wide.ttf); }
+@font-face { font-family: CreativeBlock; src: url(../assets/fonts/CreativeBlockBB.ttf); }
+@font-face { font-family: BillySerif; src: url(../assets/fonts/BillySerif.ttf); }
+* { margin: 0; padding: 0; }
+body { background: #fff; }
+.page { position: relative; overflow: hidden; break-after: page; }
+.page:last-child { break-after: auto; }
+.piece { position: absolute; display: block; overflow: visible; }
+.lbl { position: absolute; font-family: CreativeBlock, Arial, sans-serif; color: #3b2a10; }
+.note { position: absolute; font: 8.5pt/1.4 Arial, sans-serif; color: #444; }
+.sheetnote { background: #fff; padding: 0 1.5mm; margin-left: -1.5mm; z-index: 2; }
+@media screen { body { background: #888; } .page { margin: 0 auto 8px; background: #fff; } }

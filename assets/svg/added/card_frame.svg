@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 400">
+  <!-- Gold frame and maroon panel for the cards added in this version (turn cards, scoreboard). -->
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3d1636"/><stop offset=".55" stop-color="#7d2034"/><stop offset="1" stop-color="#b5452e"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="277" height="397" rx="16" fill="#d9a83c" stroke="#4a3209" stroke-width="3"/>
+  <rect x="7" y="7" width="266" height="386" rx="12" fill="none" stroke="#f3d27a" stroke-width="2"/>
+  <rect x="13" y="13" width="254" height="374" rx="9" fill="url(#panel)"/>
+</svg>

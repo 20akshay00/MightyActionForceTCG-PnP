@@ -1,0 +1,20 @@
+{
+ "reveal_order": ["Blocks", "1st player's Attack", "2nd player's Attack", "1st player's Bounty", "2nd player's Bounty"],
+ "effects": [
+  {"name": "Block", "card": "dirt_claude", "powers": "Thick Skin / Super Agility",
+   "short": "cancels opposing cards of equal or lower value",
+   "long": "Cancels every opposing card of equal or lower value."},
+  {"name": "Steal", "card": "teen_arachnid", "powers": "Steal A Gem",
+   "short": "take 1 gem, then score",
+   "long": "Take 1 gem from your opponent, then score as normal."},
+  {"name": "Draw", "card": "pony_girl", "powers": "Extra Card",
+   "short": "draw an extra card",
+   "long": "Draw an extra card."},
+  {"name": "Skip", "card": "fashion_ninja", "powers": "Skip a turn",
+   "short": "opponent skips a turn",
+   "long": "Your opponent skips their next turn."},
+  {"name": "Both", "card": "trash_collector", "powers": "Double Vision / Extra Reach",
+   "short": "fill your other slot too",
+   "long": "Play a card into your other slot too."}
+ ]
+}

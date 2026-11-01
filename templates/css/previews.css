@@ -1,0 +1,16 @@
+/* README images: labels on the table preview, and the original card (Arial text at the game's own positions). */
+.tl { position: absolute; width: 40mm; text-align: center; font: 9pt GrilledCheese; color: var(--gold); opacity: .85; }
+
+.o-text { position: relative; width: 280px; height: 400px; }
+.o-text > div { position: absolute; box-sizing: border-box; }
+.o-title { left: 20px; top: 20px; width: 180px; height: 34px; display: flex; align-items: center;
+           font: 26px GrilledCheese; color: #fff; white-space: nowrap; }
+.o-power { left: 0; top: 240px; width: 280px; height: 34px; display: flex; align-items: center; justify-content: center;
+           font: 24px GrilledCheese; color: #fff; }
+.o-desc, .o-quote { left: 15px; top: 300px; width: 250px; text-align: center; color: #553902; line-height: 1.1; }
+.o-desc { font: bold 22px Arial, Helvetica, sans-serif; }
+.o-quote { top: 305px; font: italic bold 20px Arial, Helvetica, sans-serif; }
+
+.cmp { display: flex; gap: 10mm; padding: 8mm 8mm 4mm; background: #f2ead8; justify-content: center; }
+.cmp .lab { font: 10pt GrilledCheese; color: #3a2a10; text-align: center; margin-top: 3mm; }
+.cmp .sub { font: 7.5pt Arial; color: #6b5532; text-align: center; margin-top: 1mm; }

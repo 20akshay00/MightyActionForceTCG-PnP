@@ -1,0 +1,11 @@
+/* Character card text, positioned in card units (280 x 400). */
+.card { width: var(--card-w); height: var(--card-h); display: block; }
+.text { position: relative; width: 280px; height: 400px; }
+.text > div { position: absolute; box-sizing: border-box; display: flex; align-items: center; }
+.title { left: 22px; top: 20px; width: 172px; height: 34px;
+         font-family: GrilledCheese; color: #fff; white-space: nowrap; text-shadow: 0 1.5px 0 rgba(0,0,0,.45); }
+.power { left: 24px; top: 240px; width: 232px; height: 34px; justify-content: center;
+         font-family: GrilledCheese; color: #fff; white-space: nowrap; text-shadow: 0 1.5px 0 rgba(0,0,0,.45); }
+.desc, .quote { left: 26px; top: 297px; width: 228px; height: 64px; justify-content: center; text-align: center;
+         color: #553902; font-family: BillySerif, Georgia, serif; line-height: 1.12; }
+.dg { display: none; }   /* the badges' own digits; the value is drawn as text instead */

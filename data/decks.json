@@ -1,0 +1,37 @@
+{
+ "red": {
+  "style": "clean",
+  "deck": [
+   "elf_archer",
+   "mutton_chops",
+   "gold_face",
+   "meow_bot",
+   "teen_arachnid",
+   "pony_girl",
+   "dirt_claude",
+   "trash_collector",
+   "fashion_ninja",
+   "hench_bot"
+  ]
+ },
+ "yellow": {
+  "style": "worn",
+  "deck": [
+   "elf_archer",
+   "mutton_chops",
+   "gold_face",
+   "meow_bot",
+   "utah_mcdiggs",
+   "pony_girl",
+   "k_man",
+   "growman",
+   "dr_smartypants",
+   "hench_bot"
+  ]
+ },
+ "extras": [
+  "omegon",
+  "world_guy",
+  "hench_bot"
+ ]
+}

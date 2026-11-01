@@ -1,0 +1,23 @@
+/* Turn card and scoreboard text, and the reference on the turn card's back. */
+.tname { font: 18px GrilledCheese; fill: #fff; letter-spacing: .5px; }
+.tarrow { fill: var(--gold); stroke: #4a3209; stroke-width: 2; stroke-linejoin: round; }
+.tlabel { font: 14px GrilledCheese; fill: #3d1636; }
+.tsign { font: bold 16px Arial; fill: var(--gold); }
+.tcap { font: 14px BillySerif; fill: #fde8b4; }
+.num { font: 18px GrilledCheese; fill: #fff; paint-order: stroke; stroke: #2a0d22; stroke-width: 4px; }
+
+.tref { height: 374px; box-sizing: border-box; border-radius: 9px; padding: 0 12px 8px;
+  background: radial-gradient(ellipse at 50% 30%, #fffaf0, #fbeccb 65%, #f1d79f);
+  font: 12px/1.22 BillySerif, Georgia, serif; color: #3a2a10; }
+.tref b { font-weight: normal; color: #7d2034; }
+.tband { margin: 0 -12px 6px; padding: 5px 0 4px; text-align: center; font: 14px GrilledCheese; color: var(--gold);
+  background: linear-gradient(155deg,#3d1636,#7d2034 70%,#a23a2e); border-bottom: 2px solid var(--gold); }
+.tref .tband:first-child { border-radius: 9px 9px 0 0; }
+.tlink { display: flex; align-items: center; gap: 6px; margin: 0 0 2.5px; padding: 1.5px 6px; font-size: 10.5px;
+  background: #fff6dd; border: 1px solid #e4c47a; border-radius: 5px; }
+.tlink span { width: 15px; height: 15px; flex: none; border-radius: 50%; background: #7d2034; color: var(--gold);
+  font: 10px/15px GrilledCheese; text-align: center; }
+.tref p { margin: 7px 0 9px; font-size: 9.5px; color: #6b5532; text-align: center; }
+.tfx { display: flex; align-items: center; gap: 7px; margin: 0 0 3px; font-size: 10.5px; line-height: 1.12; }
+.tref .tband + .tfx { margin-top: 16px; }
+.tfx .por { flex: none; display: block; }

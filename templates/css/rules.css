@@ -1,0 +1,51 @@
+/* Rules booklet pages (.zp), each --zine-w x --zine-h. */
+.zp { position: absolute; width: var(--zine-w); height: var(--zine-h); overflow: hidden; box-sizing: border-box;
+      background: radial-gradient(ellipse at 50% 35%, #fffaf0 0%, #fbeccb 60%, #f1d79f 100%);
+      font: 6.8pt/1.3 BillySerif, Georgia, serif; color: #3a2a10; }
+.zp::after { content: ""; position: absolute; inset: 1.4mm; border: .5mm solid var(--gold); border-radius: 1.5mm; pointer-events: none; }
+.zp h2 { position: relative; margin: 0 0 2mm; padding: 2.4mm 4mm 1.6mm; font: 10.5pt GrilledCheese; font-weight: normal;
+         color: var(--gold); background: linear-gradient(155deg,#3d1636,#7d2034 70%,#a23a2e);
+         border-bottom: .7mm solid var(--gold); text-shadow: 0 .3mm 0 #2a0d22; letter-spacing: .1mm; }
+.zp h2::before { content: "◆ "; font-size: 6.5pt; vertical-align: .4mm; color: #fde8b4; }
+.zp .in { padding: 0 4.2mm 2mm; }
+.zp p { margin: 0 0 1.6mm; }
+.zp b { font-weight: normal; color: #7d2034; }
+.zp i { font-style: normal; color: #8a6a30; }
+.zp .c { text-align: center; }
+.zp .small { font-size: 5.8pt; color: #6b5532; }
+.zp .box { background: #f6dfa4; border-left: .9mm solid var(--gold); border-radius: 0 1mm 1mm 0; padding: 1.2mm 2mm; }
+.zp .big { font: 8.5pt GrilledCheese; color: #2c3e8f; }
+.zp ol.steps { list-style: none; counter-reset: s; margin: 0 0 1.8mm; padding: 0; }
+.zp ol.steps li { counter-increment: s; position: relative; padding-left: 5.2mm; margin-bottom: 1.1mm; min-height: 3.6mm; }
+.zp ol.steps li::before { content: counter(s); position: absolute; left: 0; top: -.2mm; width: 3.6mm; height: 3.6mm;
+         border-radius: 50%; background: #7d2034; color: var(--gold); font: 6pt/3.6mm GrilledCheese; text-align: center;
+         box-shadow: 0 0 0 .35mm var(--gold); }
+.zp ul.ticks { list-style: none; padding: 0; margin: 0 0 1.8mm; }
+.zp ul.ticks li { padding-left: 3.4mm; position: relative; margin-bottom: .8mm; }
+.zp ul.ticks li::before { content: "◆"; position: absolute; left: 0; color: var(--gold); font-size: 5.5pt; top: .2mm; }
+.zp .decks { font-size: 5.6pt; line-height: 1.25; margin: 0 0 1.6mm; }
+.zp .decks p { margin: 0 0 .5mm; }
+.zp .decks span { white-space: nowrap; }
+.zp .pair { display: flex; justify-content: center; gap: 2mm; margin: 0 0 1.8mm; }
+.zp .chip { flex: 1; text-align: center; border-radius: 1.5mm; padding: 1.2mm 0 1mm; font: 7.5pt GrilledCheese; color: #fff; }
+.zp .chip small { font: 5.8pt BillySerif, Georgia, serif; opacity: .9; }
+.zp .chip.red { background: #b3261e; }
+.zp .chip.yellow { background: #c48f00; }
+.zp .table { display: flex; gap: 1.5mm; justify-content: center; margin: 0 0 2mm; }
+.zp .table > div { width: 15mm; height: 20mm; border-radius: 1.4mm; display: flex; flex-direction: column; align-items: center;
+         justify-content: center; text-align: center; font: 6.2pt GrilledCheese; }
+.zp .slot { border: .45mm dashed #7d2034; color: #7d2034; background: #fff6dd; }
+.zp .tc { background: linear-gradient(155deg,#3d1636,#7d2034); color: var(--gold); box-shadow: 0 0 0 .4mm var(--gold) inset; }
+.zp .chain { margin: 0 0 2mm; }
+.zp .link { display: flex; align-items: center; gap: 1.6mm; margin: 0 0 .9mm; padding: .6mm 1.4mm; background: #fff6dd;
+         border-radius: 1.2mm; border: .3mm solid #e4c47a; }
+.zp .link span { width: 3.6mm; height: 3.6mm; flex: none; border-radius: 50%; background: #7d2034; color: var(--gold);
+         font: 6pt/3.6mm GrilledCheese; text-align: center; }
+.zp .fx { display: flex; gap: 1.8mm; align-items: center; margin: 0 0 1.3mm; font-size: 6pt; line-height: 1.22; }
+.zp .fx i { color: #6b5532; font-size: 5.4pt; }
+.zp .por { flex: none; display: block; }
+.zgem { position: relative; display: inline-block; width: 3.4mm; height: 3.4mm; vertical-align: -.7mm; margin-right: .4mm; }
+.zcover { position: absolute; inset: 0; background: var(--maroon); overflow: hidden; }
+.ztitle { position: absolute; left: 0; width: 100%; text-align: center; font: 17pt GrilledCheese; color: var(--gold);
+          text-shadow: 0 .5mm 0 #2a0d22; letter-spacing: .6mm; }
+.znum { position: absolute; bottom: 2.4mm; width: 100%; text-align: center; font: 5.5pt GrilledCheese; color: #b08d50; }
