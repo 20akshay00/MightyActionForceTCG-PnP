@@ -9,7 +9,7 @@ A two-player print-and-play version of the [Mighty Action Force card game][card-
 [poptropica]: https://www.poptropica.com/
 [poptropicon]: https://poptropica.fandom.com/wiki/PoptropiCon_Island
 
-**[Download the latest release](https://github.com/20akshay00/MightyActionForceTCG/releases/latest)**: PDFs for A4
+**[Download the latest release](https://github.com/20akshay00/MightyActionForceTCG-PnP/releases/latest)**: PDFs for A4
 and US Letter, plus single-card images for printing services.
 
 ![The game set up on the table](preview/table_preview.png)
@@ -20,7 +20,7 @@ The Poptropica material (art, fonts, card text) isn't in this repository; it's e
 [maf-extract](https://github.com/20akshay00/maf-extract) submodule. With its requirements in place:
 
 ```
-git clone --recursive https://github.com/20akshay00/MightyActionForceTCG.git
+git clone --recursive https://github.com/20akshay00/MightyActionForceTCG-PnP.git
 python external/maf-extract/extract.py pnp
 python -I src/build.py
 ```
